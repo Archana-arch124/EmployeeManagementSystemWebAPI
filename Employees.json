@@ -1,0 +1,36 @@
+{
+  "employees": [
+    {
+      "firstName": "Kushi",
+      "lastName": "Gowda",
+      "department": "Developer",
+      "emailAddress": "kushi@gmail.com",
+      "phone": "9876545676",
+      "id": 2
+    },
+    {
+      "firstName": "Aruna",
+      "lastName": "Shetty",
+      "department": "Testing",
+      "emailAddress": "aruna1@gmail.com",
+      "phone": "9876545665",
+      "id": 3
+    },
+    {
+      "firstName": "Archana",
+      "lastName": "Gowda",
+      "department": "Analyst",
+      "emailAddress": "archanarajgowda124@gmail.com",
+      "phone": "8876544566",
+      "id": 4
+    },
+    {
+      "firstName": "Akshay",
+      "lastName": "Gowda",
+      "department": "Scientist",
+      "emailAddress": "akshay4@gmail.com",
+      "phone": "8765456768",
+      "id": 5
+    }
+  ]
+}

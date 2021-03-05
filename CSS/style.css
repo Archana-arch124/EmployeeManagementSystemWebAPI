@@ -1,0 +1,51 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(186, 186, 247);
+}
+  
+input{
+    padding: 36px;
+}
+
+ .Box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 1px;
+    padding: 6px;
+    width:80%;
+}
+ 
+.Box input[type="text"],.Box input[type="num"]
+ {
+    font-size: 18px;
+    padding: 26px;
+    margin: 2px;
+    margin-bottom:32px;
+    height: 2px;
+    background:white;
+    width:60%;
+    
+}
+
+#fNameError,#lNameError,#deptError,#emailError,#numError {
+    margin-right: 340px;
+    color: red;
+    margin-top: -20px;
+ }
+ 
+button {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: larger;
+    margin: 9px;
+    padding: 6px;
+    border-radius: 25px;
+    width: 180px;
+    background-color: rgb(37, 22, 102);
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="C:\Users\akshay gowda\Desktop\EmployeeManagementSystem\CSS\dashStyle.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="C:\Users\akshay gowda\Desktop\EmployeeManagementSystem\JavaScript\Dash.js"></script>
+
+    <title>Employee Management</title>
+</head>
+<body>
+
+    <div class="welcome">
+        <h1> Employee Management System</h1>
+    </div>
+    
+    <div class="main"> 
+
+        <button class="button" onclick="EmpForm()">Add Employee</button>
+        <script>
+            function EmpForm() {
+                window.location.href = "../HTML/EmpForm.html";
+        }
+       </script>
+       <div >
+
+            <table class="table1" id="table">
+            
+                <tr>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>Department</th>
+                <th>Email Address</th>
+                <th>Phone Number</th>
+                <th>Edit</th>
+                <th>Delete</th>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+</body>
+</html>

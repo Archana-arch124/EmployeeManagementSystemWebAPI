@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="C:\Users\akshay gowda\Desktop\EmployeeManagementSystem\CSS\style.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="C:\Users\akshay gowda\Desktop\EmployeeManagementSystem\JavaScript\EmpForm.js"></script>
+    <script src="C:\Users\akshay gowda\Desktop\EmployeeManagementSystem\JavaScript\add.js"></script>
+     <link  href="../HTML/Dashboard.html">
+ 
+ </head>
+
+<body>
+  <div class="Box">
+
+    <h1>Employee Registration</h1>
+
+      <input type="text" id="firstName" name="fName" placeholder="First Name" required>
+      <span id="fNameError"></span>
+      <input type="text" id="lastName" name="lName" placeholder="Last Name" required >
+      <span id="lNameError" ></span>
+      <input type="text" id="department" name="dept" placeholder="Department" required>
+      <span id="deptError"></span>
+      <input type="text" id="emailAddress" name="email" placeholder="Email Address" required>
+      <span id="emailError"></span>
+      <input type="num" id="phone" num="phone" placeholder="Phone Number" required>
+      <span id ="numError"></span>
+
+    </div>
+    <div>
+      <button class="button" type="submit" onclick= "verification()">Submit</button>
+      <script>
+        function verification() {
+          if (validate())
+         getData();
+         postData();
+         window.location.href = "../HTML/Dashboard.html";
+        } 
+     </script>
+
+    <div>
+  </div>
+      
+</body>
+</html>
